@@ -1,0 +1,27 @@
+﻿Build started 12/11/2016 8:29:34 PM.
+     1>Project "E:\WorkShop\NTP\Project\Driver\ndislwf.vcxproj" on node 2 (Rebuild target(s)).
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win8Release\netlwf.inf 
+         Stamping Win8Release\netlwf.inf [Version] section with DriverVer=12/11/2016,20.29.34.536
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin8Release\ /I.. /I. /Zi /nologo /W4 /WX /Ox /Os /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS630=1 /D NDIS_WDM=1 /D NDISLWF=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yc"precomp.h" /Fp"Win8Release\\precomp.h.pch" /Fo"Win8Release\\" /Fd"Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ precompsrc.c
+         precompsrc.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin8Release\ /I.. /I. /Zi /nologo /W4 /WX /Ox /Os /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS630=1 /D NDIS_WDM=1 /D NDISLWF=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"Win8Release\\precomp.h.pch" /Fo"Win8Release\\" /Fd"Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ device.c filter.c flt_dbg.c
+         device.c
+         filter.c
+         flt_dbg.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _X86_=1 /D i386=1 /D STD_CALL /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D "SMP_ID=\\\"{47A52D61-9E9E-4FEA-9033-C1434C5F8870}\\\"" /D NDIS630=1 /D NDIS_WDM=1 /D NDISLWF=1 /l"0x0409" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\UM" /IWin8Release\ /I.. /I. /nologo /fo"Win8Release\filter.res" filter.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win8Release\ndislwf.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x86\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x86\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x86\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x86\wmilib.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x86\ndis.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"Win8Release\ndislwf.pdb" /SUBSYSTEM:NATIVE,"6.02" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry@8" /RELEASE /IMPLIB:"Win8Release\ndislwf.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /PROFILE /SAFESEH /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.3 /pdbcompress /debugtype:pdata Win8Release\filter.res
+         Win8Release\device.obj
+         Win8Release\filter.obj
+         Win8Release\flt_dbg.obj
+         Win8Release\precompsrc.obj
+         ndislwf.vcxproj -> E:\WorkShop\NTP\Project\Driver\Win8Release\ndislwf.sys
+     1>Done Building Project "E:\WorkShop\NTP\Project\Driver\ndislwf.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
